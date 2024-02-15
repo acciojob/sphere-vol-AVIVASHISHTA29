@@ -9,7 +9,7 @@ function volume_sphere() {
 		let fixedVolume = volume.toFixed(4);
 		volumeInp.value = fixedVolume;
 	}
-  
+	return false;
 } 
 
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
