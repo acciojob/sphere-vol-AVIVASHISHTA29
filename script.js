@@ -5,7 +5,7 @@ function volume_sphere() {
 	if(isNaN(radius) || radius<0){
 			volumeInp.value = NaN;
 	}else{
-		let volume = (4/3*Math.PI*Math.pow(r,3));
+		let volume = (4/3*Math.PI*Math.pow(radius,3));
 		let fixedVolume = volume.toFixed(4);
 		volumeInp.value = fixedVolume;
 	}
